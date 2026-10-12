@@ -1,0 +1,18 @@
+# Build output and local toolchain
+dist/
+tools/
+*.exe
+
+# Personal calibration data (created by the app next to the program)
+calibrations.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
